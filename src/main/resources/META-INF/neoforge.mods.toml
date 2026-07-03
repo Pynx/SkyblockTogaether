@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "togaether"
+version = "1.0.0"
+displayName = "Skyblock Togaether"
+authors = "Benjamin"
+logoFile = "logo.png"
+description = '''
+Une dimension skyblock reliee a son propre Nether et End.
+Chaque portail cree dans l'overworld genere une ile flottante avec un bloc infini
+a cycles, XP et niveaux.
+'''
+
+[[dependencies.togaether]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.togaether]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "togaether:block/infinite_block"
+    }
+  }
+}

@@ -1,0 +1,3801 @@
+{
+  "levelThresholds": [
+    0,
+    16,
+    54,
+    112,
+    191,
+    290,
+    409,
+    549,
+    711,
+    895,
+    1104,
+    1340,
+    1605,
+    1902,
+    2236,
+    2613,
+    3041,
+    3529,
+    4089,
+    4738,
+    5495,
+    6387,
+    7447,
+    8718,
+    10254,
+    12127,
+    14424,
+    17263,
+    20789,
+    25190,
+    30709,
+    37654,
+    46419,
+    57510,
+    71575,
+    89442,
+    112172,
+    141122,
+    178030,
+    225119,
+    285237,
+    362027,
+    460154,
+    585589,
+    745972,
+    951087,
+    1213454,
+    1549099,
+    1978536,
+    2528023
+  ],
+  "cycles": [
+    {
+      "name": "Bûcheron",
+      "category": "Nature",
+      "minLevel": 1,
+      "xpPerMine": 1,
+      "hardness": 1.0,
+      "tool": "axe",
+      "entries": [
+        {
+          "item": "minecraft:oak_log",
+          "count": 1,
+          "weight": 32
+        },
+        {
+          "item": "minecraft:birch_log",
+          "count": 1,
+          "weight": 32
+        },
+        {
+          "item": "minecraft:spruce_log",
+          "count": 1,
+          "weight": 32
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:oak_sapling",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:apple",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1,
+          "weight": 0.4
+        },
+        {
+          "item": "minecraft:enchanted_golden_apple",
+          "count": 1,
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "name": "Terrassier",
+      "category": "Nature",
+      "minLevel": 2,
+      "xpPerMine": 1,
+      "hardness": 0.7,
+      "tool": "shovel",
+      "entries": [
+        {
+          "item": "minecraft:dirt",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:gravel",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:sand",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:flint",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:clay_ball",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:coarse_dirt",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:mud",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:podzol",
+          "count": 1,
+          "weight": 0.8
+        },
+        {
+          "item": "minecraft:mycelium",
+          "count": 1,
+          "weight": 0.15
+        },
+        {
+          "item": "minecraft:grass_block",
+          "count": 1,
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "name": "Fermier",
+      "category": "Nature",
+      "minLevel": 4,
+      "xpPerMine": 2,
+      "hardness": 0.7,
+      "tool": "hoe",
+      "entries": [
+        {
+          "item": "minecraft:wheat_seeds",
+          "count": 1,
+          "weight": 0.25
+        },
+        {
+          "item": "minecraft:wheat",
+          "count": 1,
+          "weight": 31.8
+        },
+        {
+          "item": "minecraft:carrot",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:potato",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:beetroot_seeds",
+          "count": 1,
+          "weight": 0.15
+        },
+        {
+          "item": "minecraft:pumpkin",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:melon_slice",
+          "count": 2,
+          "weight": 0.5
+        },
+        {
+          "item": "minecraft:sugar_cane",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:bone_meal",
+          "count": 2,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:poisonous_potato",
+          "count": 1,
+          "weight": 0.8
+        },
+        {
+          "item": "minecraft:golden_carrot",
+          "count": 1,
+          "weight": 0.4
+        },
+        {
+          "item": "minecraft:torchflower_seeds",
+          "count": 1,
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Éleveur",
+      "category": "Nature",
+      "minLevel": 5,
+      "xpPerMine": 3,
+      "hardness": 1.0,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:dirt",
+          "count": 2,
+          "weight": 313.64
+        },
+        {
+          "item": "minecraft:egg",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:feather",
+          "count": 1,
+          "weight": 18
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:porkchop",
+          "count": 1,
+          "weight": 12
+        },
+        {
+          "item": "minecraft:beef",
+          "count": 1,
+          "weight": 12
+        },
+        {
+          "item": "minecraft:chicken",
+          "count": 1,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:mutton",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:milk_bucket",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:saddle",
+          "count": 1,
+          "weight": 0.05
+        },
+        {
+          "item": "minecraft:cow_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:horse_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "Pêcheur",
+      "category": "Nature",
+      "minLevel": 6,
+      "xpPerMine": 4,
+      "hardness": 1.2,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:cod",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:salmon",
+          "count": 1,
+          "weight": 20
+        },
+        {
+          "item": "minecraft:string",
+          "count": 1,
+          "weight": 298.24
+        },
+        {
+          "item": "minecraft:ink_sac",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:tropical_fish",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:pufferfish",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:glow_ink_sac",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:fishing_rod",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:nautilus_shell",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "item": "minecraft:heart_of_the_sea",
+          "count": 1,
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "name": "Glace",
+      "category": "Nature",
+      "minLevel": 12,
+      "xpPerMine": 7,
+      "hardness": 2.5,
+      "tool": "shovel",
+      "entries": [
+        {
+          "item": "minecraft:snowball",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:snow_block",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:ice",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:packed_ice",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:powder_snow_bucket",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:blue_ice",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:snow_golem_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:polar_bear_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "Désert",
+      "category": "Nature",
+      "minLevel": 13,
+      "xpPerMine": 8,
+      "hardness": 2.5,
+      "tool": "shovel",
+      "entries": [
+        {
+          "item": "minecraft:sand",
+          "count": 2,
+          "weight": 32.28
+        },
+        {
+          "item": "minecraft:sandstone",
+          "count": 1,
+          "weight": 32.28
+        },
+        {
+          "item": "minecraft:cactus",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:dead_bush",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:terracotta",
+          "count": 1,
+          "weight": 32.28
+        },
+        {
+          "item": "minecraft:rabbit_hide",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:rabbit",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:gold_nugget",
+          "count": 2,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:rabbit_foot",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:camel_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:suspicious_sand",
+          "count": 1,
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "name": "Jungle",
+      "category": "Nature",
+      "minLevel": 14,
+      "xpPerMine": 8,
+      "hardness": 3.0,
+      "tool": "axe",
+      "entries": [
+        {
+          "item": "minecraft:jungle_log",
+          "count": 1,
+          "weight": 32
+        },
+        {
+          "item": "minecraft:bamboo",
+          "count": 2,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:vine",
+          "count": 1,
+          "weight": 0.12
+        },
+        {
+          "item": "minecraft:cocoa_beans",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:melon",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:jungle_sapling",
+          "count": 1,
+          "weight": 0.05
+        },
+        {
+          "item": "minecraft:moss_block",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:ocelot_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:parrot_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:music_disc_cat",
+          "count": 1,
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "name": "Océan",
+      "category": "Nature",
+      "minLevel": 15,
+      "xpPerMine": 9,
+      "hardness": 3.0,
+      "tool": "hoe",
+      "entries": [
+        {
+          "item": "minecraft:kelp",
+          "count": 1,
+          "weight": 0.08
+        },
+        {
+          "item": "minecraft:dried_kelp",
+          "count": 2,
+          "weight": 108.32
+        },
+        {
+          "item": "minecraft:prismarine_shard",
+          "count": 1,
+          "weight": 12
+        },
+        {
+          "item": "minecraft:prismarine_crystals",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:sea_pickle",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:sea_lantern",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:turtle_scute",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:nautilus_shell",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:sponge",
+          "count": 1,
+          "weight": 0.8
+        },
+        {
+          "item": "minecraft:dolphin_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:trident",
+          "count": 1,
+          "weight": 0.07
+        }
+      ]
+    },
+    {
+      "name": "Corail",
+      "category": "Nature",
+      "minLevel": 16,
+      "xpPerMine": 10,
+      "hardness": 4.5,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:dirt",
+          "count": 2,
+          "weight": 380.36
+        },
+        {
+          "item": "minecraft:tube_coral",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:brain_coral",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:fire_coral",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:horn_coral",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:bubble_coral",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:tropical_fish",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:tube_coral_block",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:brain_coral_block",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:sea_lantern",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:axolotl_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:axolotl_bucket",
+          "count": 1,
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "name": "Champignons",
+      "category": "Nature",
+      "minLevel": 17,
+      "xpPerMine": 10,
+      "hardness": 3.0,
+      "tool": "hoe",
+      "entries": [
+        {
+          "item": "minecraft:brown_mushroom",
+          "count": 1,
+          "weight": 0.15
+        },
+        {
+          "item": "minecraft:red_mushroom",
+          "count": 1,
+          "weight": 0.15
+        },
+        {
+          "item": "minecraft:mushroom_stew",
+          "count": 1,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:mushroom_stem",
+          "count": 1,
+          "weight": 90.6
+        },
+        {
+          "item": "minecraft:red_mushroom_block",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:brown_mushroom_block",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:crimson_fungus",
+          "count": 1,
+          "weight": 0.12
+        },
+        {
+          "item": "minecraft:warped_fungus",
+          "count": 1,
+          "weight": 0.12
+        },
+        {
+          "item": "minecraft:mooshroom_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:suspicious_stew",
+          "count": 1,
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "name": "Apiculteur",
+      "category": "Nature",
+      "minLevel": 18,
+      "xpPerMine": 11,
+      "hardness": 3.0,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:dirt",
+          "count": 2,
+          "weight": 284.32
+        },
+        {
+          "item": "minecraft:honeycomb",
+          "count": 1,
+          "weight": 25
+        },
+        {
+          "item": "minecraft:honey_bottle",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:dandelion",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:poppy",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:honey_block",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:honeycomb_block",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:beehive",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:bee_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:spore_blossom",
+          "count": 1,
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Teinturier",
+      "category": "Nature",
+      "minLevel": 19,
+      "xpPerMine": 11,
+      "hardness": 3.5,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:white_wool",
+          "count": 1,
+          "weight": 311.16
+        },
+        {
+          "item": "minecraft:red_dye",
+          "count": 1,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:blue_dye",
+          "count": 1,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:green_dye",
+          "count": 1,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:yellow_dye",
+          "count": 1,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:purple_dye",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:black_dye",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:white_dye",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:ink_sac",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:lapis_lazuli",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cactus",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:glow_ink_sac",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:pink_wool",
+          "count": 1,
+          "weight": 0.6
+        },
+        {
+          "item": "minecraft:cake",
+          "count": 1,
+          "weight": 0.09
+        }
+      ]
+    },
+    {
+      "name": "Sniffer",
+      "category": "Nature",
+      "minLevel": 42,
+      "xpPerMine": 25,
+      "hardness": 13.0,
+      "tool": "shovel",
+      "entries": [
+        {
+          "item": "minecraft:moss_block",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:dirt",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:mud",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:rooted_dirt",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:hanging_roots",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:torchflower_seeds",
+          "count": 1,
+          "weight": 0.05
+        },
+        {
+          "item": "minecraft:pitcher_pod",
+          "count": 1,
+          "weight": 0.05
+        },
+        {
+          "item": "minecraft:torchflower",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:pitcher_plant",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:sniffer_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:turtle_egg",
+          "count": 1,
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Bois rares",
+      "category": "Nature",
+      "minLevel": 43,
+      "xpPerMine": 26,
+      "hardness": 12.0,
+      "tool": "axe",
+      "entries": [
+        {
+          "item": "minecraft:cherry_log",
+          "count": 1,
+          "weight": 32
+        },
+        {
+          "item": "minecraft:mangrove_log",
+          "count": 1,
+          "weight": 32
+        },
+        {
+          "item": "minecraft:moss_block",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:bamboo_block",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:pink_petals",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cherry_sapling",
+          "count": 1,
+          "weight": 0.05
+        },
+        {
+          "item": "minecraft:mangrove_propagule",
+          "count": 1,
+          "weight": 0.05
+        },
+        {
+          "item": "minecraft:azalea",
+          "count": 1,
+          "weight": 0.08
+        },
+        {
+          "item": "minecraft:glow_lichen",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:flowering_azalea",
+          "count": 1,
+          "weight": 0.05
+        },
+        {
+          "item": "minecraft:spore_blossom",
+          "count": 1,
+          "weight": 0.05
+        },
+        {
+          "item": "minecraft:cherry_boat",
+          "count": 1,
+          "weight": 0.09
+        }
+      ]
+    },
+    {
+      "name": "Carrier",
+      "category": "Minage",
+      "minLevel": 3,
+      "xpPerMine": 2,
+      "hardness": 1.8,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 2,
+          "weight": 35
+        },
+        {
+          "item": "minecraft:andesite",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:diorite",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:granite",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:stone",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:tuff",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:calcite",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:dripstone_block",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:pointed_dripstone",
+          "count": 1,
+          "weight": 0.08
+        },
+        {
+          "item": "minecraft:budding_amethyst",
+          "count": 1,
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "Fer",
+      "category": "Minage",
+      "minLevel": 7,
+      "xpPerMine": 4,
+      "hardness": 3.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 2,
+          "weight": 142.76
+        },
+        {
+          "item": "minecraft:raw_iron",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:coal",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 3,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:raw_copper",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1,
+          "weight": 2.5
+        },
+        {
+          "item": "minecraft:iron_ore",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:anvil",
+          "count": 1,
+          "weight": 0.8
+        },
+        {
+          "item": "minecraft:iron_block",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:iron_horse_armor",
+          "count": 1,
+          "weight": 0.09
+        }
+      ]
+    },
+    {
+      "name": "Cuivre",
+      "category": "Minage",
+      "minLevel": 8,
+      "xpPerMine": 5,
+      "hardness": 3.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 2,
+          "weight": 185.16
+        },
+        {
+          "item": "minecraft:raw_copper",
+          "count": 2,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:copper_block",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:cut_copper",
+          "count": 2,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:oxidized_copper",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:lightning_rod",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:copper_grate",
+          "count": 2,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:copper_bulb",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:chiseled_copper",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:spyglass",
+          "count": 1,
+          "weight": 0.7
+        },
+        {
+          "item": "minecraft:brush",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "item": "minecraft:lodestone",
+          "count": 1,
+          "weight": 0.09
+        }
+      ]
+    },
+    {
+      "name": "Redstone",
+      "category": "Minage",
+      "minLevel": 9,
+      "xpPerMine": 5,
+      "hardness": 3.5,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 2,
+          "weight": 269.92
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 2,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:redstone_torch",
+          "count": 1,
+          "weight": 12
+        },
+        {
+          "item": "minecraft:repeater",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:piston",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:comparator",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:slime_ball",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:observer",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:sticky_piston",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:dispenser",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:hopper",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:redstone_lamp",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:daylight_detector",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:target",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:sculk_sensor",
+          "count": 1,
+          "weight": 0.4
+        },
+        {
+          "item": "minecraft:crafter",
+          "count": 1,
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "name": "Or",
+      "category": "Minage",
+      "minLevel": 10,
+      "xpPerMine": 6,
+      "hardness": 4.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 2,
+          "weight": 103.32
+        },
+        {
+          "item": "minecraft:raw_gold",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:gold_nugget",
+          "count": 3,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 1,
+          "weight": 2.5
+        },
+        {
+          "item": "minecraft:powered_rail",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:gilded_blackstone",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:golden_horse_armor",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "item": "minecraft:gold_block",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:enchanted_golden_apple",
+          "count": 1,
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "Deepslate",
+      "category": "Minage",
+      "minLevel": 21,
+      "xpPerMine": 13,
+      "hardness": 7.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:cobbled_deepslate",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:deepslate",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:polished_deepslate",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:deepslate_bricks",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:deepslate_tiles",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:raw_iron",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:raw_copper",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:glow_berries",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:reinforced_deepslate",
+          "count": 1,
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "name": "Améthyste",
+      "category": "Minage",
+      "minLevel": 22,
+      "xpPerMine": 13,
+      "hardness": 6.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:amethyst_shard",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:amethyst_block",
+          "count": 1,
+          "weight": 12
+        },
+        {
+          "item": "minecraft:calcite",
+          "count": 1,
+          "weight": 49.06
+        },
+        {
+          "item": "minecraft:smooth_basalt",
+          "count": 1,
+          "weight": 49.06
+        },
+        {
+          "item": "minecraft:tinted_glass",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:amethyst_cluster",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:spyglass",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:budding_amethyst",
+          "count": 1,
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "Prismarine",
+      "category": "Minage",
+      "minLevel": 30,
+      "xpPerMine": 18,
+      "hardness": 8.5,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:prismarine",
+          "count": 1,
+          "weight": 39.68
+        },
+        {
+          "item": "minecraft:prismarine_shard",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:prismarine_bricks",
+          "count": 1,
+          "weight": 39.68
+        },
+        {
+          "item": "minecraft:dark_prismarine",
+          "count": 1,
+          "weight": 39.68
+        },
+        {
+          "item": "minecraft:prismarine_crystals",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:sea_lantern",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:wet_sponge",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:sponge",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:guardian_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:tide_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:elder_guardian_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "Enchanteur",
+      "category": "Savoir",
+      "minLevel": 11,
+      "xpPerMine": 7,
+      "hardness": 2.0,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:paper",
+          "count": 2,
+          "weight": 151.76
+        },
+        {
+          "item": "minecraft:book",
+          "count": 1,
+          "weight": 20
+        },
+        {
+          "item": "minecraft:lapis_lazuli",
+          "count": 2,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:bookshelf",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:lapis_block",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:writable_book",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:chiseled_bookshelf",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:enchanting_table",
+          "count": 1,
+          "weight": 0.4
+        },
+        {
+          "item": "minecraft:knowledge_book",
+          "count": 1,
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "name": "Alchimiste",
+      "category": "Savoir",
+      "minLevel": 20,
+      "xpPerMine": 12,
+      "hardness": 4.0,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:glass_bottle",
+          "count": 1,
+          "weight": 206.48
+        },
+        {
+          "item": "minecraft:nether_wart",
+          "count": 1,
+          "weight": 0.05
+        },
+        {
+          "item": "minecraft:sugar",
+          "count": 1,
+          "weight": 12
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:glowstone_dust",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:spider_eye",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:fermented_spider_eye",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:blaze_powder",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:magma_cream",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:glistering_melon_slice",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:ghast_tear",
+          "count": 1,
+          "weight": 1.2
+        },
+        {
+          "item": "minecraft:brewing_stand",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:turtle_helmet",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:dragon_breath",
+          "count": 1,
+          "weight": 0.07
+        }
+      ]
+    },
+    {
+      "name": "Village",
+      "category": "Savoir",
+      "minLevel": 24,
+      "xpPerMine": 14,
+      "hardness": 4.5,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:bread",
+          "count": 1,
+          "weight": 20
+        },
+        {
+          "item": "minecraft:emerald",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:hay_block",
+          "count": 1,
+          "weight": 161.4
+        },
+        {
+          "item": "minecraft:carrot",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:potato",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:composter",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:barrel",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:lectern",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:smithing_table",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:fletching_table",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:bell",
+          "count": 1,
+          "weight": 0.8
+        },
+        {
+          "item": "minecraft:villager_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:wandering_trader_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:emerald_block",
+          "count": 1,
+          "weight": 0.09
+        }
+      ]
+    },
+    {
+      "name": "Terracotta",
+      "category": "Savoir",
+      "minLevel": 29,
+      "xpPerMine": 17,
+      "hardness": 7.5,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:terracotta",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:white_terracotta",
+          "count": 1,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:orange_terracotta",
+          "count": 1,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:red_terracotta",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:yellow_terracotta",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:brick",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:cyan_terracotta",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:bricks",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:flower_pot",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:white_glazed_terracotta",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:decorated_pot",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:heart_pottery_sherd",
+          "count": 1,
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "name": "Archéologie",
+      "category": "Savoir",
+      "minLevel": 41,
+      "xpPerMine": 25,
+      "hardness": 12.0,
+      "tool": "shovel",
+      "entries": [
+        {
+          "item": "minecraft:clay_ball",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:sand",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:gravel",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:bone",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:brush",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:decorated_pot",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:suspicious_sand",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:suspicious_gravel",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:angler_pottery_sherd",
+          "count": 1,
+          "weight": 0.4
+        },
+        {
+          "item": "minecraft:archer_pottery_sherd",
+          "count": 1,
+          "weight": 0.4
+        },
+        {
+          "item": "minecraft:arms_up_pottery_sherd",
+          "count": 1,
+          "weight": 0.4
+        },
+        {
+          "item": "minecraft:skull_pottery_sherd",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:heart_pottery_sherd",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:prize_pottery_sherd",
+          "count": 1,
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "name": "Armures",
+      "category": "Savoir",
+      "minLevel": 45,
+      "xpPerMine": 27,
+      "hardness": 18.0,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:paper",
+          "count": 2,
+          "weight": 154.16
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1,
+          "weight": 2.5
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:amethyst_shard",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:emerald",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:diamond",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:sentry_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.8
+        },
+        {
+          "item": "minecraft:dune_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.8
+        },
+        {
+          "item": "minecraft:coast_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.8
+        },
+        {
+          "item": "minecraft:wild_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.8
+        },
+        {
+          "item": "minecraft:raiser_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.6
+        },
+        {
+          "item": "minecraft:host_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.6
+        },
+        {
+          "item": "minecraft:shaper_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.6
+        },
+        {
+          "item": "minecraft:wayfinder_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.6
+        },
+        {
+          "item": "minecraft:eye_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.4
+        },
+        {
+          "item": "minecraft:rib_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:vex_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:tide_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:ward_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:spire_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:snout_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:silence_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "name": "Mélomane",
+      "category": "Savoir",
+      "minLevel": 46,
+      "xpPerMine": 28,
+      "hardness": 16.0,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:paper",
+          "count": 2,
+          "weight": 192.72
+        },
+        {
+          "item": "minecraft:note_block",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:quartz",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:jukebox",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:disc_fragment_5",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:music_disc_13",
+          "count": 1,
+          "weight": 1.2
+        },
+        {
+          "item": "minecraft:music_disc_cat",
+          "count": 1,
+          "weight": 1.2
+        },
+        {
+          "item": "minecraft:music_disc_blocks",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:music_disc_chirp",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:music_disc_far",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:music_disc_mall",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:music_disc_mellohi",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:music_disc_stal",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:music_disc_strad",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:music_disc_wait",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:music_disc_ward",
+          "count": 1,
+          "weight": 0.6
+        },
+        {
+          "item": "minecraft:music_disc_11",
+          "count": 1,
+          "weight": 0.6
+        },
+        {
+          "item": "minecraft:music_disc_5",
+          "count": 1,
+          "weight": 0.4
+        },
+        {
+          "item": "minecraft:music_disc_relic",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:music_disc_precipice",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:music_disc_otherside",
+          "count": 1,
+          "weight": 0.25
+        },
+        {
+          "item": "minecraft:music_disc_pigstep",
+          "count": 1,
+          "weight": 0.15
+        },
+        {
+          "item": "minecraft:music_disc_creator_music_box",
+          "count": 1,
+          "weight": 0.12
+        },
+        {
+          "item": "minecraft:music_disc_creator",
+          "count": 1,
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "name": "Balise",
+      "category": "Savoir",
+      "minLevel": 48,
+      "xpPerMine": 29,
+      "hardness": 35.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:glass",
+          "count": 2,
+          "weight": 44.08
+        },
+        {
+          "item": "minecraft:obsidian",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:soul_sand",
+          "count": 1,
+          "weight": 66.12
+        },
+        {
+          "item": "minecraft:crying_obsidian",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:iron_block",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:ghast_tear",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:gold_block",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:emerald_block",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:diamond_block",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "item": "minecraft:wither_skeleton_skull",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:nether_star",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:beacon",
+          "count": 1,
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Sculk",
+      "category": "Combat",
+      "minLevel": 23,
+      "xpPerMine": 14,
+      "hardness": 5.0,
+      "tool": "hoe",
+      "entries": [
+        {
+          "item": "minecraft:sculk",
+          "count": 1,
+          "weight": 25
+        },
+        {
+          "item": "minecraft:sculk_vein",
+          "count": 2,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:coal",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:bone_block",
+          "count": 1,
+          "weight": 244.16
+        },
+        {
+          "item": "minecraft:sculk_sensor",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:sculk_catalyst",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:echo_shard",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:sculk_shrieker",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:disc_fragment_5",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:recovery_compass",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:music_disc_5",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:silence_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "name": "Pillards",
+      "category": "Combat",
+      "minLevel": 25,
+      "xpPerMine": 15,
+      "hardness": 5.0,
+      "tool": "sword",
+      "entries": [
+        {
+          "item": "minecraft:arrow",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:dark_oak_log",
+          "count": 1,
+          "weight": 32
+        },
+        {
+          "item": "minecraft:emerald",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1,
+          "weight": 2.5
+        },
+        {
+          "item": "minecraft:crossbow",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:ominous_bottle",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:saddle",
+          "count": 1,
+          "weight": 0.05
+        },
+        {
+          "item": "minecraft:pillager_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:totem_of_undying",
+          "count": 1,
+          "weight": 0.25
+        },
+        {
+          "item": "minecraft:evoker_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:allay_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "Ossuaire",
+      "category": "Combat",
+      "minLevel": 26,
+      "xpPerMine": 16,
+      "hardness": 5.5,
+      "tool": "sword",
+      "entries": [
+        {
+          "item": "minecraft:bone",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:rotten_flesh",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:arrow",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:string",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:bone_block",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 2,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:carrot",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:potato",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:bow",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:zombie_head",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:skeleton_skull",
+          "count": 1,
+          "weight": 0.25
+        },
+        {
+          "item": "minecraft:wither_skeleton_skull",
+          "count": 1,
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Poudrière",
+      "category": "Combat",
+      "minLevel": 27,
+      "xpPerMine": 16,
+      "hardness": 6.0,
+      "tool": "sword",
+      "entries": [
+        {
+          "item": "minecraft:gunpowder",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:string",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:sand",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:paper",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:firework_rocket",
+          "count": 2,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:tnt",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:fire_charge",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:creeper_head",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:music_disc_13",
+          "count": 1,
+          "weight": 0.09
+        }
+      ]
+    },
+    {
+      "name": "Slime",
+      "category": "Combat",
+      "minLevel": 28,
+      "xpPerMine": 17,
+      "hardness": 5.0,
+      "tool": "sword",
+      "entries": [
+        {
+          "item": "minecraft:rotten_flesh",
+          "count": 2,
+          "weight": 232.96
+        },
+        {
+          "item": "minecraft:slime_ball",
+          "count": 2,
+          "weight": 35
+        },
+        {
+          "item": "minecraft:slime_block",
+          "count": 1,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:lily_pad",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:seagrass",
+          "count": 1,
+          "weight": 0.08
+        },
+        {
+          "item": "minecraft:magma_cream",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:sticky_piston",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:lead",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:frog_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:slime_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "Chambres d'essai",
+      "category": "Combat",
+      "minLevel": 44,
+      "xpPerMine": 26,
+      "hardness": 26.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:copper_block",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:tuff",
+          "count": 1,
+          "weight": 89.58
+        },
+        {
+          "item": "minecraft:chiseled_tuff",
+          "count": 1,
+          "weight": 89.58
+        },
+        {
+          "item": "minecraft:copper_grate",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:wind_charge",
+          "count": 2,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:copper_bulb",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:breeze_rod",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:ominous_bottle",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:trial_key",
+          "count": 1,
+          "weight": 1.2
+        },
+        {
+          "item": "minecraft:ominous_trial_key",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:guster_banner_pattern",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:flow_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:bolt_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:breeze_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:heavy_core",
+          "count": 1,
+          "weight": 0.04
+        },
+        {
+          "item": "minecraft:trial_spawner",
+          "count": 1,
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "name": "Ménagerie",
+      "category": "Combat",
+      "minLevel": 49,
+      "xpPerMine": 29,
+      "hardness": 20.0,
+      "tool": "sword",
+      "entries": [
+        {
+          "item": "minecraft:egg",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:bone",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:wheat",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:armadillo_scute",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:wolf_armor",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:axolotl_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:goat_horn",
+          "count": 1,
+          "weight": 0.8
+        },
+        {
+          "item": "minecraft:panda_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:camel_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:goat_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:mooshroom_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:allay_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:sniffer_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:warden_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "Nether",
+      "category": "Nether",
+      "minLevel": 31,
+      "xpPerMine": 19,
+      "hardness": 9.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:netherrack",
+          "count": 3,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:soul_sand",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:soul_soil",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:basalt",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:blackstone",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:quartz",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:glowstone_dust",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:magma_block",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:strider_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:ghast_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "Forteresse",
+      "category": "Nether",
+      "minLevel": 32,
+      "xpPerMine": 19,
+      "hardness": 10.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:nether_bricks",
+          "count": 1,
+          "weight": 62.36
+        },
+        {
+          "item": "minecraft:nether_brick",
+          "count": 2,
+          "weight": 62.36
+        },
+        {
+          "item": "minecraft:nether_wart",
+          "count": 1,
+          "weight": 0.05
+        },
+        {
+          "item": "minecraft:coal",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:blaze_powder",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 2,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:blaze_rod",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:magma_cream",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:blaze_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:wither_skeleton_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:wither_skeleton_skull",
+          "count": 1,
+          "weight": 0.07
+        }
+      ]
+    },
+    {
+      "name": "Bastion",
+      "category": "Nether",
+      "minLevel": 33,
+      "xpPerMine": 20,
+      "hardness": 12.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:blackstone",
+          "count": 2,
+          "weight": 37.93
+        },
+        {
+          "item": "minecraft:gold_nugget",
+          "count": 3,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:polished_blackstone",
+          "count": 1,
+          "weight": 37.93
+        },
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 1,
+          "weight": 2.5
+        },
+        {
+          "item": "minecraft:gilded_blackstone",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:chain",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:magma_block",
+          "count": 1,
+          "weight": 37.93
+        },
+        {
+          "item": "minecraft:crying_obsidian",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:lodestone",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:netherite_scrap",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:snout_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:piglin_banner_pattern",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:music_disc_pigstep",
+          "count": 1,
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Forêts du Nether",
+      "category": "Nether",
+      "minLevel": 34,
+      "xpPerMine": 20,
+      "hardness": 8.0,
+      "tool": "axe",
+      "entries": [
+        {
+          "item": "minecraft:crimson_stem",
+          "count": 1,
+          "weight": 39.7
+        },
+        {
+          "item": "minecraft:warped_stem",
+          "count": 1,
+          "weight": 39.7
+        },
+        {
+          "item": "minecraft:shroomlight",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:crimson_fungus",
+          "count": 1,
+          "weight": 0.12
+        },
+        {
+          "item": "minecraft:warped_fungus",
+          "count": 1,
+          "weight": 0.12
+        },
+        {
+          "item": "minecraft:weeping_vines",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:twisting_vines",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:crimson_nylium",
+          "count": 1,
+          "weight": 4.96
+        },
+        {
+          "item": "minecraft:warped_nylium",
+          "count": 1,
+          "weight": 4.96
+        },
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:warped_fungus_on_a_stick",
+          "count": 1,
+          "weight": 0.09
+        }
+      ]
+    },
+    {
+      "name": "Âmes",
+      "category": "Nether",
+      "minLevel": 35,
+      "xpPerMine": 21,
+      "hardness": 9.0,
+      "tool": "shovel",
+      "entries": [
+        {
+          "item": "minecraft:soul_sand",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:soul_soil",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:bone",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:soul_torch",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:soul_lantern",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:ghast_tear",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:wither_rose",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:skull_banner_pattern",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:wither_skeleton_skull",
+          "count": 1,
+          "weight": 0.15
+        },
+        {
+          "item": "minecraft:nether_star",
+          "count": 1,
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "name": "Netherite",
+      "category": "Nether",
+      "minLevel": 36,
+      "xpPerMine": 22,
+      "hardness": 18.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:netherrack",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:basalt",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:blackstone",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:magma_block",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 1,
+          "weight": 2.5
+        },
+        {
+          "item": "minecraft:obsidian",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:ancient_debris",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "item": "minecraft:netherite_scrap",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:netherite_upgrade_smithing_template",
+          "count": 1,
+          "weight": 0.15
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:netherite_block",
+          "count": 1,
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "End",
+      "category": "End",
+      "minLevel": 37,
+      "xpPerMine": 22,
+      "hardness": 14.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:end_stone",
+          "count": 2,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:end_stone_bricks",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:chorus_fruit",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:popped_chorus_fruit",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:purpur_block",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:obsidian",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:ender_eye",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:enderman_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:end_crystal",
+          "count": 1,
+          "weight": 0.09
+        }
+      ]
+    },
+    {
+      "name": "Cité de l'End",
+      "category": "End",
+      "minLevel": 38,
+      "xpPerMine": 23,
+      "hardness": 16.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:purpur_block",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:end_stone_bricks",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:purpur_pillar",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:end_rod",
+          "count": 1,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:magenta_stained_glass",
+          "count": 1,
+          "weight": 6
+        },
+        {
+          "item": "minecraft:shulker_shell",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:ender_chest",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:spire_armor_trim_smithing_template",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:elytra",
+          "count": 1,
+          "weight": 0.08
+        },
+        {
+          "item": "minecraft:dragon_head",
+          "count": 1,
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "name": "Shulker",
+      "category": "End",
+      "minLevel": 39,
+      "xpPerMine": 23,
+      "hardness": 17.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:end_stone",
+          "count": 1,
+          "weight": 58.38
+        },
+        {
+          "item": "minecraft:chorus_fruit",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:purpur_block",
+          "count": 1,
+          "weight": 58.38
+        },
+        {
+          "item": "minecraft:shulker_shell",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:end_rod",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:ender_eye",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:shulker_box",
+          "count": 1,
+          "weight": 0.6
+        },
+        {
+          "item": "minecraft:shulker_spawn_egg",
+          "count": 1,
+          "weight": 0.03
+        },
+        {
+          "item": "minecraft:elytra",
+          "count": 1,
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "name": "Dragon",
+      "category": "End",
+      "minLevel": 40,
+      "xpPerMine": 24,
+      "hardness": 22.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:end_stone",
+          "count": 2,
+          "weight": 98.59
+        },
+        {
+          "item": "minecraft:obsidian",
+          "count": 1,
+          "weight": 12
+        },
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:glass",
+          "count": 1,
+          "weight": 26.29
+        },
+        {
+          "item": "minecraft:dragon_breath",
+          "count": 1,
+          "weight": 4
+        },
+        {
+          "item": "minecraft:ghast_tear",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:ender_eye",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:end_crystal",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:elytra",
+          "count": 1,
+          "weight": 0.12
+        },
+        {
+          "item": "minecraft:dragon_head",
+          "count": 1,
+          "weight": 0.08
+        },
+        {
+          "item": "minecraft:dragon_egg",
+          "count": 1,
+          "weight": 0.02
+        }
+      ]
+    },
+    {
+      "name": "Entraînement I",
+      "category": "Spécial",
+      "minLevel": 1,
+      "xpPerMine": 3,
+      "hardness": 0.6,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 1,
+          "weight": 40
+        },
+        {
+          "item": "minecraft:dirt",
+          "count": 1,
+          "weight": 30
+        },
+        {
+          "item": "minecraft:gravel",
+          "count": 1,
+          "weight": 20
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 1,
+          "weight": 0.8
+        },
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1,
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Entraînement II",
+      "category": "Spécial",
+      "minLevel": 8,
+      "xpPerMine": 9,
+      "hardness": 0.6,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 2,
+          "weight": 40
+        },
+        {
+          "item": "minecraft:andesite",
+          "count": 1,
+          "weight": 25
+        },
+        {
+          "item": "minecraft:flint",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:coal",
+          "count": 1,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 1,
+          "weight": 1
+        },
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1,
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "name": "Entraînement III",
+      "category": "Spécial",
+      "minLevel": 16,
+      "xpPerMine": 18,
+      "hardness": 0.6,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:stone",
+          "count": 1,
+          "weight": 40
+        },
+        {
+          "item": "minecraft:tuff",
+          "count": 1,
+          "weight": 25
+        },
+        {
+          "item": "minecraft:gravel",
+          "count": 2,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 1,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 1,
+          "weight": 1.2
+        },
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1,
+          "weight": 0.07
+        }
+      ]
+    },
+    {
+      "name": "Casino",
+      "category": "Spécial",
+      "minLevel": 22,
+      "xpPerMine": 1,
+      "hardness": 12.0,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:gold_nugget",
+          "count": 3,
+          "weight": 10
+        },
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 1,
+          "weight": 2.5
+        },
+        {
+          "item": "minecraft:amethyst_shard",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:emerald",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 1,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:diamond",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:name_tag",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:saddle",
+          "count": 1,
+          "weight": 0.05
+        },
+        {
+          "item": "minecraft:netherite_scrap",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:totem_of_undying",
+          "count": 1,
+          "weight": 0.4
+        },
+        {
+          "item": "minecraft:enchanted_golden_apple",
+          "count": 1,
+          "weight": 0.15
+        },
+        {
+          "item": "minecraft:elytra",
+          "count": 1,
+          "weight": 0.05
+        },
+        {
+          "item": "minecraft:nether_star",
+          "count": 1,
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "Entraînement IV",
+      "category": "Spécial",
+      "minLevel": 26,
+      "xpPerMine": 30,
+      "hardness": 0.6,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:netherrack",
+          "count": 2,
+          "weight": 40
+        },
+        {
+          "item": "minecraft:basalt",
+          "count": 1,
+          "weight": 25
+        },
+        {
+          "item": "minecraft:blackstone",
+          "count": 1,
+          "weight": 20
+        },
+        {
+          "item": "minecraft:quartz",
+          "count": 1,
+          "weight": 8
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 2,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:enchanted_golden_apple",
+          "count": 1,
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "Entraînement V",
+      "category": "Spécial",
+      "minLevel": 36,
+      "xpPerMine": 48,
+      "hardness": 0.6,
+      "tool": "any",
+      "entries": [
+        {
+          "item": "minecraft:end_stone",
+          "count": 2,
+          "weight": 40
+        },
+        {
+          "item": "minecraft:obsidian",
+          "count": 1,
+          "weight": 20
+        },
+        {
+          "item": "minecraft:purpur_block",
+          "count": 1,
+          "weight": 15
+        },
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 3,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:enchanted_golden_apple",
+          "count": 1,
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "name": "Trésors",
+      "category": "Spécial",
+      "minLevel": 47,
+      "xpPerMine": 28,
+      "hardness": 30.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 1,
+          "weight": 2.5
+        },
+        {
+          "item": "minecraft:emerald",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:amethyst_shard",
+          "count": 1,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:lapis_lazuli",
+          "count": 2,
+          "weight": 5
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 2,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:diamond",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:name_tag",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:emerald_block",
+          "count": 1,
+          "weight": 0.7
+        },
+        {
+          "item": "minecraft:diamond_block",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "item": "minecraft:totem_of_undying",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:heart_of_the_sea",
+          "count": 1,
+          "weight": 0.15
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1,
+          "weight": 0.09
+        },
+        {
+          "item": "minecraft:enchanted_golden_apple",
+          "count": 1,
+          "weight": 0.08
+        }
+      ]
+    },
+    {
+      "name": "Légendaire",
+      "category": "Spécial",
+      "minLevel": 50,
+      "xpPerMine": 30,
+      "hardness": 50.0,
+      "tool": "pickaxe",
+      "entries": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 3,
+          "weight": 3
+        },
+        {
+          "item": "minecraft:emerald",
+          "count": 1,
+          "weight": 2
+        },
+        {
+          "item": "minecraft:netherite_scrap",
+          "count": 1,
+          "weight": 0.3
+        },
+        {
+          "item": "minecraft:end_portal_frame",
+          "count": 1,
+          "weight": 1.5
+        },
+        {
+          "item": "minecraft:totem_of_undying",
+          "count": 1,
+          "weight": 0.8
+        },
+        {
+          "item": "minecraft:enchanted_golden_apple",
+          "count": 1,
+          "weight": 0.5
+        },
+        {
+          "item": "minecraft:elytra",
+          "count": 1,
+          "weight": 0.4
+        },
+        {
+          "item": "minecraft:nether_star",
+          "count": 1,
+          "weight": 0.25
+        },
+        {
+          "item": "minecraft:netherite_block",
+          "count": 1,
+          "weight": 0.2
+        },
+        {
+          "item": "minecraft:beacon",
+          "count": 1,
+          "weight": 0.15
+        },
+        {
+          "item": "minecraft:heavy_core",
+          "count": 1,
+          "weight": 0.1
+        },
+        {
+          "item": "minecraft:dragon_egg",
+          "count": 1,
+          "weight": 0.04
+        },
+        {
+          "item": "minecraft:spawner",
+          "count": 1,
+          "weight": 0.02
+        }
+      ]
+    }
+  ]
+}

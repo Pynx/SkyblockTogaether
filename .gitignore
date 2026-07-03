@@ -1,0 +1,14 @@
+.gradle/
+build/
+run/
+run-server/
+run-data/
+out/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+eclipse/
+bin/
+libs/

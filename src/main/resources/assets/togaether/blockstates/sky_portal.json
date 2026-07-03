@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "togaether:block/sky_portal_ns"
+    },
+    "axis=z": {
+      "model": "togaether:block/sky_portal_ew"
+    }
+  }
+}
