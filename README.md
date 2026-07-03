@@ -68,7 +68,7 @@ Cycles par défaut :
 
 Niveaux par défaut (XP cumulée) : 0, 30, 100, 300, 600, 1000. Tout est modifiable dans `config/togaether-cycles.json` (créé au premier lancement) : seuils de niveaux, cycles, objets, quantités, poids, XP.
 
-**Objets admin** (créatif uniquement, onglet du mod) : 4 Éclats d'XP (+1, +10, +1000, +10000), consommés par clic droit sur un bloc infini pour lui rendre son XP — utile si un bloc a été détruit par accident (créatif + accroupi le détruit réellement ; un bloc reposé repart de zéro).
+**Objets admin** (créatif uniquement, onglet du mod) : 5 Éclats d'XP (+10, +1000, +10000, +100k, +1M), consommés par clic droit sur un bloc infini pour lui rendre son XP — utile si un bloc a été détruit par accident (créatif + accroupi le détruit réellement ; un bloc reposé repart de zéro).
 
 ### Nether et End skyblock
 - Un portail du Nether (obsidienne + briquet) construit dans le skyblock mène au **Nether skyblock**, vide, avec échelle 1:8 et liaison de portails comme en vanilla. Retour idem.

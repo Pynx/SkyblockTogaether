@@ -251,14 +251,14 @@ public final class CyclesConfig {
     /** Petit jeu de secours si la config embarquee est introuvable. */
     private static List<Cycle> defaults() {
         return List.of(
-                new Cycle("Debuts", "Nature", 1, 1, 1.0F, "axe", List.of(
+                new Cycle("Basics", "Nature", 1, 1, 1.0F, "axe", List.of(
                         new Entry(Items.OAK_LOG, 1, 30),
                         new Entry(Items.DIRT, 1, 25),
                         new Entry(Items.COBBLESTONE, 1, 30),
                         new Entry(Items.OAK_SAPLING, 1, 0.1),
                         new Entry(Items.WHEAT_SEEDS, 1, 0.25),
                         new Entry(Items.BONE_MEAL, 1, 6))),
-                new Cycle("Ferme", "Nature", 2, 1, 0.8F, "hoe", List.of(
+                new Cycle("Farm", "Nature", 2, 1, 0.8F, "hoe", List.of(
                         new Entry(Items.WATER_BUCKET, 1, 0.5),
                         new Entry(Items.LAVA_BUCKET, 1, 1),
                         new Entry(Items.SAND, 1, 30),
@@ -270,7 +270,7 @@ public final class CyclesConfig {
                         new Entry(Items.SWEET_BERRIES, 1, 0.1),
                         new Entry(Items.COAL, 1, 8),
                         new Entry(Items.FLINT, 1, 8))),
-                new Cycle("Mines", "Minage", 3, 2, 2.0F, "pickaxe", List.of(
+                new Cycle("Mines", "Mining", 3, 2, 2.0F, "pickaxe", List.of(
                         new Entry(Items.COBBLESTONE, 2, 80),
                         new Entry(Items.COAL_ORE, 1, 4),
                         new Entry(Items.IRON_ORE, 1, 3),
@@ -298,7 +298,7 @@ public final class CyclesConfig {
                         new Entry(Items.CRYING_OBSIDIAN, 1, 2),
                         new Entry(Items.GHAST_TEAR, 1, 1),
                         new Entry(Items.VILLAGER_SPAWN_EGG, 1, 0.01))),
-                new Cycle("Tresors", "Spécial", 5, 4, 3.0F, "pickaxe", List.of(
+                new Cycle("Treasures", "Special", 5, 4, 3.0F, "pickaxe", List.of(
                         new Entry(Items.DIAMOND_ORE, 1, 0.8),
                         new Entry(Items.EMERALD_ORE, 1, 1),
                         new Entry(Items.ANCIENT_DEBRIS, 1, 0.5),

@@ -19,10 +19,11 @@ public final class ModCreativeTabs {
                 .displayItems((parameters, output) -> {
                     output.accept(ModItems.SKY_KEY.get());
                     output.accept(ModItems.INFINITE_BLOCK_ITEM.get());
-                    output.accept(ModItems.XP_SHARD_1.get());
                     output.accept(ModItems.XP_SHARD_10.get());
                     output.accept(ModItems.XP_SHARD_1000.get());
                     output.accept(ModItems.XP_SHARD_10000.get());
+                    output.accept(ModItems.XP_SHARD_100000.get());
+                    output.accept(ModItems.XP_SHARD_1000000.get());
                 })
                 .build());
     }

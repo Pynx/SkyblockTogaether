@@ -110,6 +110,13 @@ public class InfiniteBlockScreen extends Screen {
         return this.data.cycles().get(this.viewedIndex);
     }
 
+    /** Entrees du cycle consulte, triees du plus courant au plus rare. */
+    private List<EntryInfo> sortedEntries() {
+        return this.viewedCycle().entries().stream()
+                .sorted(java.util.Comparator.comparingDouble(EntryInfo::weight).reversed())
+                .toList();
+    }
+
     /** Indices (globaux) des cycles de la categorie ouverte. */
     private List<Integer> cyclesInOpenCategory() {
         List<Integer> indices = new ArrayList<>();
@@ -410,7 +417,7 @@ public class InfiniteBlockScreen extends Screen {
             totalWeight += entry.weight();
         }
 
-        List<EntryInfo> entries = cycle.entries();
+        List<EntryInfo> entries = this.sortedEntries();
         int rows = Math.min(VISIBLE_ROWS, entries.size() - this.entryScroll);
         for (int row = 0; row < rows; row++) {
             EntryInfo entry = entries.get(this.entryScroll + row);

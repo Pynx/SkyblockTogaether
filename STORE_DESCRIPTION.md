@@ -31,10 +31,10 @@ The skyblock dimension has its own empty Nether and End, sealed off from the van
 
 ## For server admins
 
-- Four creative-only **XP Shards** (+1 / +10 / +1000 / +10000) restore a block's XP if someone destroys one by accident.
+- Five creative-only **XP Shards** (+10 / +1000 / +10000 / +100k / +1M) restore a block's XP if someone destroys one by accident.
 - Island height, minimum island spacing, portal frame block and key consumption are in `config/togaether-common.toml`.
 - Delete `config/togaether-cycles.json` and restart to regenerate the default cycle config after an update.
-- Ships with 12 languages (EN, FR, ES, PT-BR, DE, RU, ZH-CN, JA, KO, PL, IT).
+- English only. Cycle and category names come from the config file, so you can rename everything for your community.
 
 ## Requirements
 

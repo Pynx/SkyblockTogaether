@@ -21,14 +21,16 @@ public final class ModItems {
                     () -> new InfiniteBlockItem(ModBlocks.INFINITE_BLOCK.get(), new Item.Properties()));
 
     // Objets admin (creatif uniquement) : donnent de l'XP au bloc infini
-    public static final DeferredItem<XpShardItem> XP_SHARD_1 = ITEMS.register("xp_shard_1",
-            () -> new XpShardItem(1, new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final DeferredItem<XpShardItem> XP_SHARD_10 = ITEMS.register("xp_shard_10",
             () -> new XpShardItem(10, new Item.Properties().rarity(Rarity.RARE)));
     public static final DeferredItem<XpShardItem> XP_SHARD_1000 = ITEMS.register("xp_shard_1000",
             () -> new XpShardItem(1000, new Item.Properties().rarity(Rarity.EPIC)));
     public static final DeferredItem<XpShardItem> XP_SHARD_10000 = ITEMS.register("xp_shard_10000",
             () -> new XpShardItem(10000, new Item.Properties().rarity(Rarity.EPIC)));
+    public static final DeferredItem<XpShardItem> XP_SHARD_100000 = ITEMS.register("xp_shard_100000",
+            () -> new XpShardItem(100000, new Item.Properties().rarity(Rarity.EPIC)));
+    public static final DeferredItem<XpShardItem> XP_SHARD_1000000 = ITEMS.register("xp_shard_1000000",
+            () -> new XpShardItem(1000000, new Item.Properties().rarity(Rarity.EPIC)));
 
     private ModItems() {
     }
